@@ -15,7 +15,8 @@ To begin start,open your integrated terminal and run
   
         npm install
         
-To begin server , run now
+To begin server , hit and run
+
         npm start
         
  
