@@ -1,0 +1,239 @@
+<%- include partials/_header.ejs  %>
+<body>
+<div class="container-fluid fh5co_header_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 fh5co_mediya_center"><a href="#" id="timer" class="color_fff fh5co_mediya_setting"><i
+                    class="fa fa-clock-o"></i>&nbsp;&nbsp;&nbsp;</a>
+                <div class="d-inline-block fh5co_trading_posotion_relative"><a href="#" class="treding_btn">Trending</a>
+                    <div class="fh5co_treding_position_absolute"></div>
+                </div>
+                <a href="/the-loai/<%=myArticles[ myArticles.length-1].categorySeo%>/<%=myArticles[ myArticles.length-1].seo%>.<%=myArticles[ myArticles.length-1]._id%>" class="color_fff fh5co_mediya_setting"><%= myArticles[ myArticles.length-1].title%></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3 fh5co_padding_menu">
+                <img src="images/logo.png" alt="img" class="fh5co_logo_width"/>
+            </div>
+            <div class="col-12 col-md-9 align-self-center fh5co_mediya_right">
+                <div class="text-center d-inline-block">
+                    <a class="fh5co_display_table"><div class="fh5co_verticle_middle"><i class="fa fa-search"></i></div></a>
+                </div>
+                <div class="text-center d-inline-block">
+                    <a class="fh5co_display_table"><div class="fh5co_verticle_middle"><i class="fa fa-linkedin"></i></div></a>
+                </div>
+                <div class="text-center d-inline-block">
+                    <a class="fh5co_display_table"><div class="fh5co_verticle_middle"><i class="fa fa-google-plus"></i></div></a>
+                </div>
+                <div class="text-center d-inline-block">
+                    <a href="https://twitter.com/fh5co" target="_blank" class="fh5co_display_table"><div class="fh5co_verticle_middle"><i class="fa fa-twitter"></i></div></a>
+                </div>
+                <div class="text-center d-inline-block">
+                    <a href="https://fb.com/fh5co" target="_blank" class="fh5co_display_table"><div class="fh5co_verticle_middle"><i class="fa fa-facebook"></i></div></a>
+                </div>
+                <div class="d-inline-block text-center dd_position_relative ">
+                    <select class="form-control fh5co_text_select_option">
+                        <option>Tiếng Việt</option>
+                        <option>English</option>
+                    </select>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid bg-faded fh5co_padd_mediya padding_786">
+    <div class="container padding_786">
+        <nav class="navbar navbar-toggleable-md navbar-light ">
+            <button class="navbar-toggler navbar-toggler-right mt-3" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="img" class="mobile_logo_width"/></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home">Trang chủ <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/blog">Blog <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton1" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">Thể loại<span class="sr-only">(current)</span></a>
+                           <div class="dropdown-menu" aria-labelledby="dropdownMenuLink_1">
+                            <% myCategories.forEach( function( oneCategory ){ %> 
+                                <a class="dropdown-item" href="/the-loai/<%= oneCategory.seo%>"> <%= oneCategory.field %></a>
+                            <%})%>
+                            </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton2" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">World <span class="sr-only">(current)</span></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink_1">
+                            <a class="dropdown-item" href="#">Action in</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton3" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">Cộng đồng<span class="sr-only">(current)</span></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink_1">
+                            <a class="dropdown-item" href="#">Action in</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> Liên hệ <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="container-fluid contact_us_bg_img">
+    <div class="container">
+        <div class="row">
+            <a href="#" class="fh5co_con_123"><i class="fa fa-home"></i></a>
+            <a href="#" class="fh5co_con pt-2"> Contact Us </a>
+        </div>
+    </div>
+</div>
+<div class="container-fluid  fh5co_fh5co_bg_contcat">
+    <div class="container">
+        <div class="row py-4">
+            <div class="col-md-4 py-3">
+                <div class="row fh5co_contact_us_no_icon_difh5co_hover">
+                    <div class="col-3 fh5co_contact_us_no_icon_difh5co_hover_1">
+                        <div class="fh5co_contact_us_no_icon_div"> <span><i class="fa fa-phone"></i></span> </div>
+                    </div>
+                    <div class="col-9 align-self-center fh5co_contact_us_no_icon_difh5co_hover_2">
+                        <span class="c_g d-block">Số điện thoại</span>
+                        <span class="d-block c_g fh5co_contact_us_no_text">0477.364.734</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3">
+                <div class="row fh5co_contact_us_no_icon_difh5co_hover">
+                    <div class="col-3 fh5co_contact_us_no_icon_difh5co_hover_1">
+                        <div class="fh5co_contact_us_no_icon_div"> <span><i class="fa fa-envelope"></i></span> </div>
+                    </div>
+                    <div class="col-9 align-self-center fh5co_contact_us_no_icon_difh5co_hover_2">
+                        <span class="c_g d-block">Liên với tui qua</span>
+                        <span class="d-block c_g fh5co_contact_us_no_text">phongkaster@gmail.com</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3">
+                <div class="row fh5co_contact_us_no_icon_difh5co_hover">
+                    <div class="col-3 fh5co_contact_us_no_icon_difh5co_hover_1">
+                        <div class="fh5co_contact_us_no_icon_div"> <span><i class="fa fa-map-marker"></i></span> </div>
+                    </div>
+                    <div class="col-9 align-self-center fh5co_contact_us_no_icon_difh5co_hover_2">
+                        <span class="c_g d-block">Địa chỉ</span>
+                        <span class="d-block c_g fh5co_contact_us_no_text"> Quận 1, Thành phố Hồ Chí Minh, Việt Nam</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid mb-4">
+    <div class="container">
+        <div class="col-12 text-center contact_margin_svnit ">
+            <div class="text-center fh5co_heading py-2">Liên hệ</div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <form class="row" id="fh5co_contact_form">
+                    <div class="col-12 py-3">
+                        <input type="text" class="form-control fh5co_contact_text_box" placeholder="Enter Your Name" />
+                    </div>
+                    <div class="col-6 py-3">
+                        <input type="text" class="form-control fh5co_contact_text_box" placeholder="E-mail" />
+                    </div>
+                    <div class="col-6 py-3">
+                        <input type="text" class="form-control fh5co_contact_text_box" placeholder="Subject" />
+                    </div>
+                    <div class="col-12 py-3">
+                        <textarea class="form-control fh5co_contacts_message" placeholder="Message"></textarea>
+                    </div>
+                    <div class="col-12 py-3 text-center"> <a href="#" class="btn contact_btn">Send Message</a> </div>
+                </form>
+            </div>
+            <div class="col-12 col-md-6 align-self-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4320522713574!2d106.69415201386754!3d10.778183692320328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f39d5f969ef%3A0x24c8ec126cfb7a21!2zRGluaCDEkOG7mWMgTOG6rXA!5e0!3m2!1svi!2s!4v1616509743920!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid fh5co_footer_bg pb-3">
+    <div class="container animate-box">
+        <div class="row">
+            <div class="col-12 spdp_right py-5"><img src="images/white_logo.png" alt="img" class="footer_logo"/></div>
+            <div class="clearfix"></div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="footer_main_title py-3"> Giới thiệu </div>
+                <div class="footer_sub_about pb-3"> Chào mọi người , mình là Nguyễn Thành Phong.Một lập trình viên còn "bé bỏng" mới tập tành viết code.
+                    Trang blog này với mục đích chia sẻ những điều mình thấy và ý kiến cá nhân của mình về nghề lập trình và những khía cạnh khác của một lập trình viên.
+                    Mình rất mong mọi người đón nhận và được giao lưu kết bạn với tất cả mọi người từ khắp mọi miền Tổ quốc.
+                </div>
+                <div class="footer_mediya_icon">
+                    <div class="text-center d-inline-block"><a class="fh5co_display_table_footer">
+                        <div class="fh5co_verticle_middle"><i class="fa fa-linkedin"></i></div>
+                    </a></div>
+                    <div class="text-center d-inline-block"><a class="fh5co_display_table_footer">
+                        <div class="fh5co_verticle_middle"><i class="fa fa-google-plus"></i></div>
+                    </a></div>
+                    <div class="text-center d-inline-block"><a class="fh5co_display_table_footer">
+                        <div class="fh5co_verticle_middle"><i class="fa fa-twitter"></i></div>
+                    </a></div>
+                    <div class="text-center d-inline-block"><a class="fh5co_display_table_footer">
+                        <div class="fh5co_verticle_middle"><i class="fa fa-facebook"></i></div>
+                    </a></div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-lg-2">
+                <div class="footer_main_title py-3">Thể loại</div>
+                <ul class="footer_menu">
+                    <% myCategories.forEach(function(oneCategory){ %> 
+                        <li><a href="/the-loai/<%= oneCategory.seo %>" class=""><i class="fa fa-angle-right"></i>&nbsp;&nbsp; <%= oneCategory.field %></a></li>
+                    <% }) %>
+                </ul>
+            </div>
+            <div class="col-12 col-md-5 col-lg-3 position_footer_relative">
+                <div class="footer_main_title py-3"> Xem nhiều nhất</div>
+                <% for( let index = 0 ; index < 3 ; index ++){ %> 
+                <div class="footer_makes_sub_font">   <%= moment(myArticles[index].date).format('dddd , DD-MM-YYYY') %></div>
+                <a href="/<%= myArticles[index].seo%>.<%= myArticles[index]._id%>" class="footer_post pb-4"> <%= myArticles[index].title  %></a>
+                <%}%>
+                <div class="footer_position_absolute"><img src="/images/footer_sub_tipik.png" alt="img" class="width_footer_sub_img"/></div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 ">
+                <div class="footer_main_title py-3"> Những bài viết gần đây</div>
+                <% for( let index = myArticles.length - 1 ; index > myArticles.length - 10 ; index--){ %>
+                <a href="/<%= myArticles[index].seo%>.<%= myArticles[index]._id%>" class="footer_img_post_6"><img src="<%= myArticles[index].pathPhoto  %>" alt="img"/></a>
+                <% } %>
+            </div>
+        </div>
+        <div class="row justify-content-center pt-2 pb-4">
+            <div class="col-12 col-md-8 col-lg-7 ">
+                <div class="input-group">
+                    <span class="input-group-addon fh5co_footer_text_box" id="basic-addon1"><i class="fa fa-envelope"></i></span>
+                    <input type="text" class="form-control fh5co_footer_text_box" placeholder="Enter your email..." aria-describedby="basic-addon1">
+                    <a href="#" class="input-group-addon fh5co_footer_subcribe" id="basic-addon12"> <i class="fa fa-paper-plane-o"></i>&nbsp;&nbsp;Subscribe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<%- include partials/_footer.ejs  %>
