@@ -58,9 +58,8 @@ HOME 😁
 TREDING 😝
 
 ![image](https://user-images.githubusercontent.com/58034430/122628749-22cd5380-d0e2-11eb-9586-89ced5ae5a7a.png)
-
 ===============================================================================================================
-NEWS AND TAGS (づ￣ 3￣)づ
+NEWS AND TAGS 🙀
 
 ![image](https://user-images.githubusercontent.com/58034430/122628384-f6b0d300-d0df-11eb-8b14-07e273f5cfe9.png)
 
