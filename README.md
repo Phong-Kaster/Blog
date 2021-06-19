@@ -50,12 +50,12 @@ And another important thing is a database,my MongoDB have tables :
 ![image](https://user-images.githubusercontent.com/58034430/122628274-6bcfd880-d0df-11eb-81fa-c6d259f0a4ac.png)
 
 Some pictures about my first project
-
-HOME []~(￣▽￣)~*
+===============================================================================================================
+HOME 😁
 
 ![image](https://user-images.githubusercontent.com/58034430/122628356-da149b00-d0df-11eb-9fa8-47a0f352b292.png)
 ===============================================================================================================
-TREDING (〃￣︶￣)人(￣︶￣〃)
+TREDING 😝
 
 ![image](https://user-images.githubusercontent.com/58034430/122628749-22cd5380-d0e2-11eb-9586-89ced5ae5a7a.png)
 
