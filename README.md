@@ -63,8 +63,12 @@ NEWS AND TAGS (づ￣ 3￣)づ
 ![image](https://user-images.githubusercontent.com/58034430/122628384-f6b0d300-d0df-11eb-8b14-07e273f5cfe9.png)
 
 
+
 I don't know you and you don't know me. Probably we are not even living in the same country. We look different. We speak different languages. Maybe we are from entirely different generations. We are just complete strangers.
 
 But there is something that connects us. We both have great taste in getting programming
 
 Thank you for being here. God bless you, whoever you are
+
+========
+Begun on 9th March 2021 & Finished on 9h11 , 23th April 2021 ========
