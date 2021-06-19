@@ -30,3 +30,41 @@ So that , to run both website spider and server , run
         
         
 And you will see in the terminal
+![image](https://user-images.githubusercontent.com/58034430/122628177-e3513800-d0de-11eb-9d88-efa3aeff1b17.png)
+
+To end server , open terminal and hit
+
+        pm2 stop all
+
+And another important thing is a database,my MongoDB have tables :
+
+1) articles
+2) categories
+3) comments
+4) menus
+5) roles
+6) users
+
+
+![image](https://user-images.githubusercontent.com/58034430/122628274-6bcfd880-d0df-11eb-81fa-c6d259f0a4ac.png)
+
+Some pictures about my first project
+
+HOME []~(￣▽￣)~*
+
+![image](https://user-images.githubusercontent.com/58034430/122628356-da149b00-d0df-11eb-9fa8-47a0f352b292.png)
+===============================================================================================================
+TREDING (〃￣︶￣)人(￣︶￣〃)
+
+![image](https://user-images.githubusercontent.com/58034430/122628377-ebf63e00-d0df-11eb-9b3a-4278fa6e54d4.png)
+===============================================================================================================
+NEWS AND TAGS (づ￣ 3￣)づ
+
+![image](https://user-images.githubusercontent.com/58034430/122628384-f6b0d300-d0df-11eb-8b14-07e273f5cfe9.png)
+
+
+I don't know you and you don't know me. Probably we are not even living in the same country. We look different. We speak different languages. Maybe we are from entirely different generations. We are just complete strangers.
+
+But there is something that connects us. We both have great taste in getting programming
+
+Thank you for being here. God bless you, whoever you are
