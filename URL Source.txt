@@ -1,0 +1,9 @@
+1)Client Interface : https://www.free-css.com/free-css-templates/page250/24-news
+
+2)https://stackoverflow.com/questions/14528385/how-to-convert-json-object-to-javascript-array
+
+3)https://stackoverflow.com/questions/3546164/how-to-store-nested-objects-in-different-mongodb-collection
+
+3)https://stackoverflow.com/questions/49121377/ejs-get-nested-object
+
+4)https://stackoverflow.com/questions/31764998/posting-nested-object-to-nodejs-server-via-ajax-is-returning-undefined
