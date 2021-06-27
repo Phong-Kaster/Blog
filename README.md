@@ -1,5 +1,5 @@
 # Blog
-My first completed project , you can see here : https://phong-kaster.github.io/Blog.io/
+My first completed project , you can see at : https://phong-kaster.github.io/Blog.io/
 
 First of all, I'm thankful for Nguyen Dang Hau (@ngdanghau) - he is my best friend , my great teacher.
 And he helped me to do and learn many fabulous things about this topic.
