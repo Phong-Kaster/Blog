@@ -3,7 +3,7 @@ My first completed project , you can see at : https://phong-kaster.github.io/Blo
 
 First of all, I'm thankful for Nguyen Dang Hau (@ngdanghau) - he is my best friend , my great teacher.
 And he helped me to do and learn many fabulous things about this topic.
-e
+
 You can reference his works from here : https://github.com/ngdanghau.
 
 As of now , this is my first completed project in my life with NodeJS , Express , MongoDB & Mongoose.
