@@ -47,24 +47,6 @@ And another important thing is a database,my MongoDB have tables :
 6) users
 
 
-![image](https://user-images.githubusercontent.com/58034430/122628274-6bcfd880-d0df-11eb-81fa-c6d259f0a4ac.png)
-
-Some pictures about my first project
-===============================================================================================================
-HOME 😁
-
-![image](https://user-images.githubusercontent.com/58034430/122628356-da149b00-d0df-11eb-9fa8-47a0f352b292.png)
-===============================================================================================================
-TREDING 😝
-
-![image](https://user-images.githubusercontent.com/58034430/122628749-22cd5380-d0e2-11eb-9586-89ced5ae5a7a.png)
-===============================================================================================================
-NEWS AND TAGS 🙀
-
-![image](https://user-images.githubusercontent.com/58034430/122628384-f6b0d300-d0df-11eb-8b14-07e273f5cfe9.png)
-
-
-
 I don't know you and you don't know me. Probably we are not even living in the same country. We look different. We speak different languages. Maybe we are from entirely different generations. We are just complete strangers.
 
 But there is something that connects us. We both have great taste in getting programming
